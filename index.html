@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculadoraSimples</title>
+</head>
+<body>
+    
+    <section>
+        <div>
+            <h1>VAMOS CALCULAR</h1><br />
+            <h4>Informe o 1° número a ser calculado:</h4>
+            Primeiro Número<br />
+            <input id="n1" type="number" /><br />
+            <h4>Informe o 2° número a ser calculado:</h4>
+            Segundo Número<br />
+            <input id="n2" type="number" /><br /><br />
+            <h4>Selecione a operação a ser feita:</h4>
+            <button onclick="somar()">SOMAR</button>
+            <button onclick="subtrair()">SUBTRAIR</button>
+            <button onclick="multiplicar()">MULTIPLICAR</button>
+            <button onclick="dividir()">DIVISÃO</button>
+            <button onclick="potenciacao()">POTENCIAÇÃO</button>
+            <br /><br />
+            O resultado é: <span></span>
+        </div>
+    </section>
+    <script src="./calculadora.js"></script>
+</body>
+</html>
